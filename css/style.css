@@ -8,7 +8,6 @@
   box-sizing: border-box;
 }
 /* default styles ends  */
-
 /* banner section starts  */
 .banner-wrapper{
   background-image: url(../assets/hero-bg.png);
@@ -105,13 +104,14 @@
   
 }
 .footer-main{
-  border: 2px solid green;
+  /* border: 2px solid green; */
   min-height: 600px;
   margin-top: 50px;
   text-align: center;
   padding-top: 100px;
   background-image: url(../assets/social-bg.png);
-  opacity: 40%;
+  opacity: 80%;
+  border-radius: 20px;
 }
 .follow{
   color: rgb(78, 76, 76);
@@ -123,5 +123,8 @@
   max-width: 1300px;
   margin: 0 auto;
   margin-top: 40px;
+}
+.follow{
+  color: black;
 }
 
